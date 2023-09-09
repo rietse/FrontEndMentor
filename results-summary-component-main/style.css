@@ -229,6 +229,10 @@ h1 {
 }
 
 @media (max-width: 750px) {
+    .body {
+        align-items: flex-start;
+    }
+    
     .flex-container {
       flex-direction: column;
       filter: none;
