@@ -103,7 +103,7 @@ h1 {
 }
 
 .summary h2 {
-    align-self: left;
+    margin: 0;
 }
 
 .result p {
@@ -121,7 +121,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 60px;
 }
 
 .reaction {
@@ -214,11 +214,11 @@ h1 {
 
 .continue {
     background-color: #303b59;
-    height: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 25px;
-    line-height: 50px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    line-height: 60px;
     color: #fff;
     cursor: pointer;
 }
@@ -231,9 +231,17 @@ h1 {
 @media (max-width: 750px) {
     .flex-container {
       flex-direction: column;
+      filter: none;
     }
 
+    .summary h2 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
 
+    .summary {
+        height: 600px;
+    }
 
     .circle {
         width: 150px;
